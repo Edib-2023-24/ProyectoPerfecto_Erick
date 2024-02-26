@@ -1,8 +1,20 @@
+/* *********************************** */
+@import url(normalize.min.css);
+@import url(reset.css);
+
+/* *********************************** */
+/* *** ESTILOS GENERALES *** */
+/* *********************************** */
+
 /* Tipografía */
 @font-face {
   font-family: "helvetica";
-  src: url("helveticaneue.woff2") format("woff2");
+  src: url("../fonts/helveticaneue.woff2") format("woff2"),
+    url("../fonts/helveticaneue.woff") format("woff");
 }
+
+/* ******************************** */
+
 #container {
   display: flex;
   justify-content: center;
