@@ -1,0 +1,27 @@
+/* Tipografía */
+@font-face {
+  font-family: "helvetica";
+  src: url("helveticaneue.woff2") format("woff2");
+}
+#container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(241, 241, 241, 1);
+  width: 100vw;
+  height: 100vh;
+}
+
+.web {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 1);
+  padding: 30px 20px;
+  border-radius: 10px;
+  font-weight: 400;
+  font-family: helvetica;
+  font-size: 32px;
+}
+.web a {
+  text-decoration: none;
+  color: black;
+}
